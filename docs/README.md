@@ -2805,7 +2805,7 @@ toolkit.retrUserAuthToObj('/home', (error, output) => {
 
 **Description:**
 
-Retrieves information about the users who are authorized to an object.
+Adds a library to the library list.
 
 **Syntax:**
 
@@ -2813,7 +2813,7 @@ addToLibraryList(library)
 
 **Parameters:**
 
-- **library** `striing` the library name to be added to the library list.
+- **library** `string` the library name to be added to the library list.
 
 - **callback** `<function>` to handle the output.
   - The first parameter added to the callback is `error`. This is an `Error` object when a occurs or `null`.
